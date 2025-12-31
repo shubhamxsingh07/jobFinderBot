@@ -1,0 +1,5 @@
+config.json
+seen_jobs.json
+bot.log
+__pycache__/
+*.pyc

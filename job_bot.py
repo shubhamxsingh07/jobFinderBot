@@ -15,6 +15,10 @@ SEEN_JOBS_PATH = os.path.join(BASE_DIR, 'seen_jobs.json')
 LOG_PATH = os.path.join(BASE_DIR, 'bot.log')
 
 def load_config():
+    if not os.path.exists(CONFIG_PATH):
+        print(f"Error: {CONFIG_PATH} not found.")
+        print("Please copy 'config.example.json' to 'config.json' and add your Telegram credentials.")
+        exit(1)
     with open(CONFIG_PATH, 'r', encoding='utf-8-sig') as f:
         return json.load(f)
 
