@@ -1,0 +1,36 @@
+﻿{
+    "telegram_bot_token": "8432429523:AAENds3Ig9rMVJfPnIduZ_Y8xwLKxcdXDZI",
+    "telegram_chat_id": "8209856454",
+    "keywords_include": [
+        "fresher",
+        "entry level",
+        "graduate",
+        "junior",
+        "associate",
+        "0-1 year",
+        "intern",
+        "trainee",
+        "developer"
+    ],
+    "keywords_exclude": [
+        "senior",
+        "lead",
+        "manager",
+        "principal",
+        "3+ years",
+        "5+ years",
+        "experienced"
+    ],
+    "roles": [
+        "frontend",
+        "backend",
+        "full stack",
+        "developer",
+        "engineer",
+        "data analyst",
+        "business development",
+        "bde",
+        "project manager"
+    ],
+    "scan_interval_minutes": 1
+}
